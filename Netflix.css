@@ -1,0 +1,563 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./Images/Netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav  img{
+    height: 20vh;
+    width: 45%;
+    padding: 1rem 6rem;
+    margin: -2rem 0rem;
+    position: relative;
+    left: 10%;
+}
+nav {
+    display: flex;
+    margin: 0;
+    padding: 0rem;
+    justify-content: space-between;
+}
+#right{
+    display: flex;
+    margin: 0rem 15rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-cont{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;  
+}
+#right > #right-cont >#btn{
+    margin-left: 0.5rem;
+}
+#right-cont>li>select{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    border: 1.5px solid white;
+    border-radius: 2px solid white;
+    padding-left: 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+option{
+    color: black;
+}
+#right-cont>li>a>button{
+    color: white;
+    border: 1.5px solid red;
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px 22px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+#ico{
+  padding: 1rem 0rem 1rem 0rem;
+}
+#intro{
+   text-align: center;
+   color: whitesmoke;
+}
+#intro > h1{
+    font-size: 50px;
+    margin: 2rem 0rem;
+    font-weight: bolder;
+}
+#intro > p{
+    font-size: larger; 
+    font-weight: bolder;
+}
+#intro > input{
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 26%;
+  font-size: 1rem;
+  padding: 0.3rem 2rem;
+  height: 3.0rem;
+  color: whitesmoke;
+  font-weight: bolder;
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background: rgba(0, 0, 0,0.5);
+  border: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+#intro > button{
+    background-color: red;
+    color: whitesmoke;
+    width: 11rem;
+    height: 3.4rem;
+    border-radius: 7px;
+    font-size: larger;
+
+}
+body{
+    background-color: black;
+}
+#TV{
+    /* background-color: hotpink; */
+    width: 72%;
+    margin: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 18rem;
+    margin-left: 8rem;
+}
+#enjoy{
+ /* background-color: wheat;    */
+ width: 48%;
+ color: whitesmoke;
+}
+#enjoy>h2{
+    font-size: 2.5rem;
+}
+#enjoy>p{
+    font-size: 1.6rem;
+}
+#tv-video{
+/* background-color: cadetblue; */
+width: 48%;
+position: relative;
+}
+#tv-video > img{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#tv-video > video{
+    position: absolute;
+    left: 13%;
+    top: 20.5%;
+    width: 74%;
+    z-index: 0;
+}
+hr{
+    height: 3px;
+    background-color: grey;
+    border: none;
+    margin-top: -10rem;
+
+}
+#apple-tv{
+    width: 72%;
+    margin: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+#series{
+    width: 48%;
+    color: whitesmoke;
+}
+#series > h1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+#series>p{
+    font-size: 1.6rem;
+}
+#apple-tv-video{
+    width: 48%;
+    position: relative;
+}
+#apple-tv-video > img{
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+#apple-tv-video > video{
+    position: absolute;
+    left: 17%;
+    top: 7.5%;
+    width: 63%;
+    z-index: 0;
+}
+#kids{
+    width: 72%;
+    margin: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+#kids> #child-img>img{
+    position: relative;
+    width: 70%;
+    bottom: 0%;
+    right: -13%;
+}
+#kids>#kids-description{
+    width: 48%;
+    color: whitesmoke;
+}
+#kids > #kids-description>h1{
+    color: snow;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#kids > #kids-description>p{
+    font-size: 1rem;
+}
+#ST{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#ST-desc{
+    width: 48%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+#ST>#ST-img{
+    width: 48%;
+}
+#ST-img > #image1{
+    position: relative;
+    width: 90%;
+}
+
+#ST-img > #edit1{
+    display: flex;
+    position: relative;
+    top: 502%;
+    left: 23.5%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px 0px 6px 2px;
+    width: 16rem;
+    /* height: 62%; */
+    margin-top: -6rem;
+}
+#edit1> #image2{
+    position: relative;
+    width: 20%;
+    margin-right: 1rem;
+    left: 0.5rem;
+}
+#edit1>h5{
+    margin-right: 10%;
+    margin-left: 1rem;
+}
+#edit1>h5> a{
+    color: #0043b2;
+}
+
+#edit1>i{
+    display: flex;
+    text-align: right;
+    margin-right: 1rem;
+    color: #0043b2;
+}
+#edit1>#gif1{
+    width: 17%;
+    position: relative;
+    top: 0%;
+    left: -6%;
+}
+#ST-desc{
+    color: whitesmoke;
+}
+#ST-desc > h1{
+    width: 70%;
+    font-size: 2rem;
+   font-weight: bolder;
+}
+#ST-desc > p{
+    width: 70%;
+    font-size: 20px;
+   /* margin-left: 37rem;
+   margin-top: -36rem; */
+   color: white;
+}
+
+#hr2{
+    width: 100%;
+    height: 8px;
+    border: none;
+    margin-top: 5rem;
+    background-color: whitesmoke;
+}
+#ST{
+    border-bottom: 3px solid #606060;
+    padding-bottom: 5rem;
+    width: 100%;
+}
+#faq{
+    /* background-color: olive; */
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 3rem;
+}
+#faq>h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#faq>.faq-cont>.que{
+ display: flex;
+ justify-content: space-between;
+ background-color: #2d2d2d;
+ padding: 0rem 1rem;
+}
+#faq>.faq-cont>.que>h3{
+    font-size: 1.5rem;
+}
+.ans{
+    background-color: #2d2d2d;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-top: 2px;
+    position: relative;
+    display: none;
+}
+.ans>p{
+    margin: 0;
+    font-size: 1.3rem;
+}
+.faq-cont{
+    margin-top: 8px;
+}
+/* .faq-cont:active .ans{
+    display: block;
+} */
+.faq-cont:hover .ans{
+    display: block;
+}
+#search{
+    text-align: center;
+    margin-bottom: 5rem;
+    border-bottom: 5.5px solid #232323;
+    padding-bottom: 7rem;
+}
+#search>#s1>h5{
+ color: white;
+ font-size: 1.5rem;
+}
+#search>#s2>input{
+    width: 30%;
+    padding: 1rem 1rem;
+    background-color:hsl(0, 0%, 6%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#search>#s2>input::placeholder{
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+#search>#s2>button{
+    width: 15%;
+    padding: 0.8rem 1rem;
+    margin-left: 0.3rem;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    
+    border-radius: 5px;
+}
+#foot{
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    
+}
+#f1{
+color: #a9b1ac;
+width: 18rem;
+padding-top: 0rem;
+padding-left: 4rem;
+}
+#f1>p>a{
+    text-decoration: underline #a9b1ac;
+    font-weight: lighter;
+}
+#foot .f2{
+    display: inline-block;
+    width: 15%;
+    padding: 18rem 5rem 0rem 0rem;
+    margin-top: -13.5rem;
+    font-weight: lighter;
+    text-decoration:underline  #a9b1ac;
+}
+#foot >.f2 a{
+    display: block;
+    height:7.5px;
+    text-align: left;
+    font-size: 1rem;
+    gap: 2px;
+    margin-bottom: 3px;
+}
+#f3{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: #a9b1ac;
+    font-size: 1.2rem;
+    border: 1.5px solid white;
+    border-radius: 2px solid white;
+    padding-left: 2rem;
+    border-radius: 5px;
+    width: 5.5%;
+    list-style-type: none;
+    margin: 2.2rem 0rem 0rem 3.3rem;
+}
+#f3>li>#sel{
+    color: white;
+    background-color: transparent;
+    position: relative;
+    font-size: 19px;
+    left: -30%;
+    border: none;
+}
+#last{
+    color: #a9b1ac;
+    font-size: 13.5px;
+    margin: -6rem 3rem;
+position: absolute;
+top: 247.5rem;
+left: 1rem;
+}
+/* ======================================================== */
+@media (max-width:600px){
+    #TV{
+        width: 80%;
+        display:block;
+    }
+    #enjoy{
+        width: 100%;
+        text-align: center;
+       }
+    #enjoy>h2{
+        font-size: 2rem;
+    }
+    #enjoy>p{
+        font-size: 1.2rem;
+    }
+    #tv-video{
+
+        width: 100%;
+        position: relative;
+        }
+    hr{
+        height: 3px;
+        background-color: grey;
+        border: none;
+        margin-top: -10rem;
+        width: 200%;
+    }
+    /* ================================================ */
+    #ST{
+        display: block;
+        width: 80%;
+    }
+    #ST-desc{
+        width: 48%;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        
+    }
+    #ST>#ST-img{
+        width: 48%;
+    }
+    #ST-img > #image1{
+        position: relative;
+        width: 90%;
+    }
+    
+    #ST-img > #edit1{
+        display: flex;
+        position: relative;
+        top: 502%;
+        left: 23.5%;
+        color: white;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 0px 0px 6px 2px;
+        width: 16rem;
+        /* height: 62%; */
+        margin-top: -6rem;
+    }
+    #edit1> #image2{
+        position: relative;
+        width: 20%;
+        margin-right: 1rem;
+        left: 0.5rem;
+    }
+    #edit1>h5{
+        margin-right: 10%;
+        margin-left: 1rem;
+    }
+    #edit1>h5> a{
+        color: #0043b2;
+    }
+    
+    #edit1>i{
+        display: flex;
+        text-align: right;
+        margin-right: 1rem;
+        color: #0043b2;
+    }
+    #ST-desc{
+        color: whitesmoke;
+    }
+    #ST-desc > h1{
+        width: 70%;
+        font-size: 2rem;
+       font-weight: bolder;
+    }
+    #ST-desc > p{
+        width: 70%;
+        font-size: 20px;
+       /* margin-left: 37rem;
+       margin-top: -36rem; */
+       color: white;
+    }
+    #ST{
+        border-bottom: 3px solid #606060;
+        padding-bottom: 5rem;
+        width: 100%;
+    }
+     /* ================================================ */
+}
